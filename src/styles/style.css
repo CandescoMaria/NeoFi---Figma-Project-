@@ -1,0 +1,122 @@
+@import url("./global.css");
+
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+/* HEADER - CSS START */
+
+.container-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text-1);
+    padding: 20px 0px;
+}
+
+.header-navegation {
+    display: flex;
+    gap: 40px;
+}
+
+.header-register-nav {
+    display: flex;
+    gap: 16px;
+}
+
+.header-navegation a {
+    text-decoration: none;
+    color: var(--font-color-gray-1);
+}
+
+.header-span-pattern {
+    color: var(--font-color-white);
+}
+
+.header-register-free {
+    background-color: var(--font-color-green);
+    border-radius: 40px;
+    padding: 10px 24px;
+}
+
+.header-register-nav a {
+    text-decoration: none;
+    color: black;
+}
+
+/* HEADER - CSS END */
+
+/* MAIN - CSS START */
+
+.container-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 0px;
+    gap: 100px;
+}
+
+.main-information-box {
+    display: flex;
+    flex-direction: column;
+    width: 568px;
+    gap: 20px;
+}
+
+.main-topic {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: fit-content;
+    padding: 10px 12px;
+    border: 1px solid var(--font-color-gradient);
+    border-radius: 24px;
+}
+
+.main-topic h4 {
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text-2);
+    color: var(--font-color-green);
+}
+
+h1 {
+    color: var(--font-color-white);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-title-1);
+    font-weight: bold;
+}
+
+p {
+    color: var(--font-color-gray-1);
+    font-family: var(--font-family-inter);
+    font-size: var(--font-size-subtitle);
+}
+
+.main-bnt {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.main-bnt span {
+    background-color: var(--font-color-green);
+    color: var(--font-color-black);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-button);
+    border-radius: 24px;
+    padding: 14px 24px;
+}
+
+.bnt-main-video {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 15px 24px;
+    border: 1.5px solid var(--font-color-gradient);
+    border-radius: 40px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-button);
+    color: var(--font-color-white);
+}

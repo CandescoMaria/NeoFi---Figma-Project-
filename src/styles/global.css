@@ -1,0 +1,37 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    /* COLOR FONT */
+
+    --font-color-green: #9DFF3A;
+    --font-color-gradient: #FBF1D6;
+    --font-color-white: #E5E5E5;
+    --font-color-black: #000000;
+    --font-color-gray-1: #999999;
+    --font-color-gray-2: #4D4D4D;
+    --font-color-gray-3: #2E2E2E;
+    --font-color-gray-4: #0F0F0F;
+
+    /* FONT FAMILY */
+
+    --font-family-alexandria: "Alexandria", sans-serif;
+    --font-family-inter: "Inter", sans-serif;
+
+    /* FONT SIZES */
+
+    --font-size-title-1: 64px;
+    --font-size-title-2: 48px;
+    --font-size-title-3: 40px;
+    --font-size-subtitle: 20px;
+    --font-size-button: 18px;
+    --font-size-text-1: 16px;
+    --font-size-text-2: 14px;
+    --font-size-caption: 12px;
+    
+}
