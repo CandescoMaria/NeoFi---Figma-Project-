@@ -53,9 +53,8 @@ body {
 .container-main {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     padding: 60px 0px;
-    gap: 100px;
 }
 
 .main-information-box {
@@ -120,3 +119,109 @@ p {
     font-size: var(--font-size-button);
     color: var(--font-color-white);
 }
+
+/* MAIN - CSS END */
+
+/* SECTION 1 - CSS START */
+
+.container-section-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--font-color-gray-4);
+    padding: 40px 0px;
+    gap: 40px;
+}
+
+.container-section-1 h4 {
+    color: var(--font-color-gray-1);
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text-1);
+}
+
+.images-section-1 {
+    display: flex;
+    gap: 50px;
+}
+
+/* SECTION 1 - CSS END */
+
+/* SECTION 2 - CSS START */
+
+.container-section-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0px;
+    gap: 60px;
+}
+
+.box-topic-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.h4-pattern {
+    color: var(--font-color-green);
+    font-size: var(--font-size-text-2);
+    font-family: var(--font-family-alexandria);
+    border: 1px solid var(--font-color-gray-3);
+    border-radius: 24px;
+    width: fit-content;
+    padding: 12px 20px;
+}
+
+h2 {
+    color: var(--font-color-white);
+    font-size: var(--font-size-title-2);
+    font-family: var(--font-family-alexandria);
+}
+
+.p-pattern {
+    font-size: var(--font-size-button);
+    text-align: center;
+    width: 644px;
+    line-height: 140%;
+}
+
+.box-card-information {
+    display: flex;
+    gap: 20px;
+}
+
+.card-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--font-color-gray-4);
+    gap: 42px;
+    padding: 36px 48px;
+    border: 1px solid var(--font-color-gradient);
+    border-radius: 12px;
+    width: fit-content;
+}
+
+.card-information-subtitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+}
+
+.card-information-subtitle h3 {
+    color: var(--font-color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+}
+
+.card-information-subtitle p {
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text-1);
+    text-align: center;
+    width: 338px;
+}
+
+/* SECTION 2 - CSS END */
