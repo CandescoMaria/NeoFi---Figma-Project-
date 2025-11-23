@@ -225,3 +225,90 @@ h2 {
 }
 
 /* SECTION 2 - CSS END */
+
+/* SECTION 3 - CSS START */
+
+.container-section-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 60px 0px;
+    background-color: var(--font-color-gray-4);
+    gap: 60px;
+}
+
+.box-number-section {
+    display: flex;
+    justify-content: center;
+    gap: 72px;
+}
+
+.card-number-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.card-number-information h3 {
+    color: var(--font-color-green);
+    font-size: var(--font-size-title-2);
+    font-family: var(--font-family-alexandria);
+    font-weight: 400;
+}
+
+/* SECTION 3 - CSS END */
+
+/* SECTION 4 - CSS START */
+
+.container-section-4 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0px;
+    gap: 60px;
+}
+
+.box-content-blockchain {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+}
+
+.card-content-information {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.card-blockchain-information {
+    display: flex;
+    align-items: center;
+    background-color: var(--font-color-gray-4);
+    padding: 20px 30px;
+    border: 1px solid var(--font-color-gradient);
+    border-radius: 20px;
+    width: fit-content;
+    gap: 24px;
+}
+
+.card-blockchain-subtitle{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.card-blockchain-subtitle h3 {
+    color: var(--font-color-white);
+    font-size: var(--font-size-subtitle);
+    font-family: var(--font-family-inter);
+    font-weight: 400;
+}
+
+.card-blockchain-subtitle p {
+    width: 530px;
+    font-family: var(--font-family-alexandria);
+    font-size: var(--font-size-text-1);
+}
+
+/* SECTION 4 - CSS END */
